@@ -1,5 +1,5 @@
 const categoriesList = document.querySelector('#categories');
-const categoriesItems = categoriesList.querySelectorAll('.item');
+const categoriesItems = [...categoriesList.children]
 
 console.log(`Number of categories: ${categoriesItems.length}`);
 
@@ -10,3 +10,5 @@ categoriesItems.forEach((item) => {
   console.log(`Elements: ${categoryElements}`);
 });
 
+console.dir(categoriesList);
+console.dir(categoriesItems)

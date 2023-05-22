@@ -17,6 +17,6 @@ const listItems = ingredients.map((ingredient) => {
 });
 
 ingredientsList.append(...listItems);
-console.log(listItems)
+console.dir(listItems);
 
 
