@@ -10,5 +10,6 @@ categoriesItems.forEach((item) => {
   console.log(`Elements: ${categoryElements}`);
 });
 
-console.dir(categoriesList);
-console.dir(categoriesItems)
+// console.dir(categoriesList);
+// console.dir(categoriesItems)
+// console.log(categoriesItems)

@@ -28,4 +28,3 @@ console.dir(markup)
 galleryList.insertAdjacentHTML("beforeend", markup)
 
 
-
