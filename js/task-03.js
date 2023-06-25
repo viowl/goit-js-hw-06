@@ -14,7 +14,7 @@ const images = [
 ];
 
 const galleryList = document.querySelector('.gallery')
-console.dir(galleryList)  
+
 
 
 
