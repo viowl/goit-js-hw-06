@@ -3,11 +3,12 @@ console.dir(a.dataset.length)
 
 a.addEventListener('blur', onInput)
 
+
 function onInput(event) {
-    const value = a.value
+    const value = a.value.length
     const letters = a.dataset.length
     console.dir(letters);
-    console.dir(value)
+    console.dir(value.length)
     if (value < letters || value > letters) {
         a.classList.add('invalid')
     }
