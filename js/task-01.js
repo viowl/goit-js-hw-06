@@ -13,3 +13,4 @@ categoriesItems.forEach((item) => {
 // console.dir(categoriesList);
 // console.dir(categoriesItems)
 // console.log(categoriesItems)
+
